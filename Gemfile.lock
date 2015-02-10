@@ -44,6 +44,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.0)
+    daemon_controller (1.2.0)
     erubis (2.7.0)
     execjs (2.3.0)
     hike (1.2.3)
@@ -60,6 +61,10 @@ GEM
     mime-types (2.4.3)
     minitest (5.5.1)
     multi_json (1.10.1)
+    passenger (4.0.59)
+      daemon_controller (>= 1.2.0)
+      rack
+      rake (>= 0.8.1)
     pg (0.18.1)
     rack (1.5.2)
     rack-test (0.6.3)
@@ -127,6 +132,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
+  passenger
   pg
   rails (= 4.1.6)
   rails_12factor

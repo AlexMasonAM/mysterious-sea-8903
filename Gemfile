@@ -44,3 +44,6 @@ gem 'rails_12factor', group: :production
 # For styling
 gem 'bourbon'
 gem 'bitters'
+
+# For changing web server deployed to Heroku
+gem 'passenger'
